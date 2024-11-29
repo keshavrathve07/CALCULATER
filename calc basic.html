@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  <script src="calc.js"></script>
+</head>
+
+<body class="flex justify-center items-center h-96">
+    <div class="w-96 shadow-2xl p-10 border-2 border-black">
+        <input id="num1" type="text" class="border-2 border-black m-3 w-full" placeholder="Input 1" />
+        <input id="num2" type="text" class="border-2 border-black m-3 w-full" placeholder="Input 2" />
+        <br>
+        <button onclick="add()" class="text-2xl rounded-lg bg-blue-100 p-4 m-2">+</button>
+        <button class="text-2xl rounded-lg bg-blue-100 p-4 m-2">-</button>
+        <button class="text-2xl rounded-lg bg-blue-100 p-4 m-2">/</button>
+        <button class="text-2xl rounded-lg bg-blue-100 p-4 m-2">*</button>
+    </div>
+    <div class="w-96 shadow-2xl p-10 border-2 border-black m-3">
+        <h1 class="text-4xl">Result</h1>
+        <h1 id="result" class="text-4xl"></h1>
+        <input id="z" type="text" class="border-2 border-black m-3 w-full" placeholder="Input 1" />
+    </div>
+
+</body>
+
+</html>
