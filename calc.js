@@ -1,40 +1,70 @@
-var myInputBox = document.getElementById("calcinputbox");
-function input1() {
-    myInputBox.value += "1"
+var x, y ,result
+function input1()
+{
+    document.getElementById("box").value += "1"
 }
-function input2() {
-    myInputBox.value += "2"
+function input2()
+{
+    document.getElementById("box").value += "2"
 }
-function input3() {
-    myInputBox.value += "3"
+function input3()
+{
+    document.getElementById("box").value += "3"
 }
-function input4() {
-    myInputBox.value += "4"
+function input4()
+{
+    document.getElementById("box").value += "4"
 }
-function input5() {
-    myInputBox.value += "5"
+function input5()
+{
+    document.getElementById("box").value += "5"
 }
-function input6() {
-    myInputBox.value += "6"
+function input6()
+{
+    document.getElementById("box").value += "6"
 }
-function input7() {
-    myInputBox.value += "7"
+function input7()
+{
+    document.getElementById("box").value += "7"
 }
-function input8() {
-    myInputBox.value += "8"
+function input8()
+{
+    document.getElementById("box").value += "8"
 }
-function input9() {
-    myInputBox.value += "9"
+function input9()
+{
+    document.getElementById("box").value += "9"
 }
-function inputPlus() {
-    myInputBox.value += "+"
-}
-function inputMinus() {
-    myInputBox.value += "-"
+function input0()
+{
+    document.getElementById("box").value += "0"
 }
 
-function calculate() {
-    myInputBox.value = eval(myInputBox.value)
+function inputplus()
+{
+    document.getElementById("box").value += "+"
 }
-
-
+function inputmainus()
+{
+    document.getElementById("box").value += "-"
+}
+function inputmultiply()
+{
+    document.getElementById("box").value += "*"
+}
+function inputdivide()
+{
+    document.getElementById("box").value += "/"
+}
+function inputsin()
+{
+    document.getElementById("box").value = Math.sin( document.getElementById("box").value)
+}
+function inputcos()
+{
+    document.getElementById("box").value = Math.cos( document.getElementById("box").value)
+}
+function calculate()
+{
+    document.getElementById("box").value = eval( document.getElementById("box").value)
+}
